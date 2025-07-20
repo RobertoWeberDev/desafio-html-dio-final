@@ -6,27 +6,47 @@
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Linux Libertine', 'Georgia', 'Times New Roman', serif;
   line-height: 1.6;
-  background-color: #f9f9f9;
-  color: #333;
-  padding: 0 20px;
+  background-color: #f6f6f6;
+  color: #202122;
+  padding: 0 10px;
+}
+
+a {
+  color: #0645ad;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #a2a9b1;
+  padding: 20px 10px;
   text-align: center;
-  padding: 30px 0;
-  background-color: #003366;
-  color: white;
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 2.2em;
+  color: #000000;
+  font-weight: normal;
+  font-family: 'Linux Libertine', 'Georgia', 'Times New Roman', serif;
 }
 
 header p {
-  font-size: 1.1em;
-  margin-top: 10px;
+  font-size: 1em;
+  color: #555;
+  margin-top: 5px;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: 1px solid #a2a9b1;
+  padding: 10px 0;
+  margin-bottom: 20px;
 }
 
 nav ul {
@@ -34,82 +54,78 @@ nav ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-nav ul li {
-  margin: 10px;
+  gap: 10px;
 }
 
 nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #005599;
-  padding: 10px 15px;
-  border-radius: 5px;
-  transition: background 0.3s;
+  color: #0645ad;
+  padding: 5px 10px;
+  border-radius: 2px;
 }
 
-nav ul li a:hover,
-nav ul li a.ativo {
-  background-color: #0077cc;
+nav ul li a:hover {
+  background-color: #f8f9fa;
+  text-decoration: underline;
 }
 
 main {
-  max-width: 900px;
-  margin: 30px auto;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #a2a9b1;
 }
 
 .destaque {
-  background-color: #e1ecf4;
-  padding: 20px;
-  border-left: 5px solid #0077cc;
-  margin-bottom: 30px;
+  background-color: #eaf3ff;
+  padding: 15px;
+  border: 1px solid #a2a9b1;
+  margin-bottom: 20px;
 }
 
 .lista-artigos ul {
-  list-style: disc inside;
-  padding: 15px;
+  list-style: disc;
+  padding-left: 20px;
 }
 
-.lista-artigos ul li {
+.lista-artigos li {
   margin-bottom: 10px;
 }
 
 .botao {
-  display: inline-block;
-  margin-top: 10px;
-  background-color: #0077cc;
+  background-color: #3366cc;
   color: white;
-  padding: 10px 15px;
+  padding: 8px 12px;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background 0.3s;
+  border-radius: 2px;
+  display: inline-block;
 }
 
 .botao:hover {
-  background-color: #005fa3;
+  background-color: #254f8c;
 }
 
 footer {
   text-align: center;
-  margin-top: 50px;
-  padding: 20px;
-  background-color: #003366;
-  color: white;
+  margin-top: 40px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-top: 1px solid #a2a9b1;
+  font-size: 0.9em;
+  color: #54595d;
 }
 
 img {
-  margin: auto;
-  display: block;
-  width: 600px;
-  height: 300px;
-}
-
-.barsa{
-  margin: auto;
-  display: block;
   width: 800px;
   height: 400px;
-  padding-top: 120px;
+  display: block;
+  margin: 20px auto;
+}
+
+.barsa {
+  width: 800px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
 }
